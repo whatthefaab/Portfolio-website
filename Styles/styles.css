@@ -1,0 +1,639 @@
+h1 {
+    text-align: center;
+    color: #d1cfc9;
+    font-family: "Candara", "Arial Black", serif;
+}
+
+/* Navigation menu */
+.navbar {
+    overflow: hidden;
+    background-color: black;
+    width: 100%;
+    font-family: "sans-serif", Serif;
+
+}
+
+/* Navigation links */
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: #d1cfc9;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+/* Subnav menu */
+.subnav {
+    float: left;
+    overflow: hidden;
+}
+
+/* subnav button */
+.subnav .subnavbtn {
+
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: #d1cfc9 ;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+
+/* background color nav links */
+.navbar a:hover .subnav:hover .subnavbtn {
+    background-color: red;
+}
+
+/* style subnav content */
+.subnav-content {
+    display: none;
+    position: absolute;
+    left: 7px;
+    background-color: black;
+    z-index: 1;
+    width: 99%;
+
+}
+
+/* Style subnav links */
+.subnav-content a {
+    float: left;
+    color: white;
+    text-decoration: none;
+}
+
+/* color hover */
+.subnav-content a:hover {
+    background-color: #eee;
+    color: black;
+}
+
+/* hover for navbar */
+.navbar a:hover{
+    background-color: #eee;
+    color: black;
+}
+
+/* hover on subnavbtn */
+.subnavbtn:hover{
+    background-color: #eee;
+    color: black;
+}
+
+/* when mouse moves over subnav container, opens subnav content */
+.subnav:hover .subnav-content {
+    display: block;
+}
+
+.active {
+    background-color: dimgrey;
+
+}
+
+.student {
+    font-family: "Candara", "Arial Black", serif;
+    color: #d1cfc9;
+    text-align: center;
+    font-size: 25px;
+
+}
+
+body {
+    background-color: #545252;
+    }
+
+
+.one {
+    font-family: "Candara", "Arial Black", serif;
+    text-align: center;
+    color: #d1cfc9;
+    font-size: 18px;
+}
+.ik {
+    width: 300px;
+    height: 300px;
+    margin-top: 4%;
+    margin-left: 3%;
+    padding-right: 5%;
+
+}
+
+/* styling h2 on design page */
+.headerdesigns {
+    font-size: 20px;
+    text-align: left;
+    margin-top: 40px;
+    color: #d1cfc9;
+    padding-left: 1%;
+}
+
+/* styling footer */
+.footer {
+    position: sticky;
+    width: 100%;
+    margin-top: -10px;
+    /* negative value of footer height */
+    height: 100px;
+    clear: both;
+    background-color: black;
+
+
+}
+
+/* styling text footer */
+.social {
+    text-align: right;
+    margin-right: 10px;
+    font-family: "Candara", "Arial Black", serif;
+    color: #d1cfc9;
+    font-size: 14px;
+    padding-top: 5px;
+    padding-right: 2%;
+}
+
+/* twitter icon */
+.fa-twitter{
+    background: #55ACEE;
+    color: white;
+    padding: 10px;
+    font-size: 30px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 80%;
+    margin-bottom: 7px;
+
+
+}
+
+/* Styling for pictures on page desgins */
+.ari1 {
+    width: 500px;
+    padding-top: 2%;
+    padding-left: 2%;
+}
+
+
+.ari2 {
+    width: 500px;
+    padding-left: 5%;
+
+}
+
+.twin {
+    width: 500px;
+    padding-bottom: 10%;
+    padding-top: 2%;
+    padding-left: 2%;
+
+}
+
+.cat {
+    width: 500px;
+    padding-left: 5%;
+    padding-bottom: 10%;
+}
+
+/* Styling text on page 'designs' */
+.subtitle {
+    font-size: 18px;
+    text-align: left;
+    color: #d1cfc9;
+    padding-left: 2%;
+}
+
+/* Styling form on page 'Contact' */
+
+.contactopnemen {
+    text-align: left;
+    color: #d1cfc9;
+    font-family: "Candara", "Arial Black", serif;
+    font-size: 18px;
+    margin-left: 5px;
+}
+
+.vnaam {
+    font-family: "Candara", "Arial Black", serif;
+    color: #d1cfc9;
+    margin-left: 5px;
+    padding-right: 5%;
+    align-content: center;
+}
+
+.anaam {
+    font-family: "Candara", "Arial Black", serif;
+    color: #d1cfc9;
+    margin-left: 5px;
+    padding-right: 3.7%;
+    align-content: center;
+}
+
+.email {
+    font-family: "Candara", "Arial Black", serif;
+    color: #d1cfc9;
+    margin-left: 5px;
+    padding-right: 7.4%;
+    align-items: center;
+
+}
+.vraag{
+    font-family: "Candara", "Arial Black", serif;
+    color: #d1cfc9;
+    margin-left: 5px;
+
+}
+#vraag{
+    margin-left: 12.2%;
+    resize: none;
+}
+#submit{
+    font-family: "Candara", "Arial Black", serif;
+    color: #d1cfc9;
+    background-color: black;
+    margin-left: 381px;
+}
+
+/* styling for LGBTQIA+ page */
+h2{
+    font-family: "Candara", "Arial Black", serif;
+    color: #d1cfc9;
+    margin-left: 5px;
+}
+
+.lgbt1 {
+    font-family: "Candara", "Arial Black", serif;
+    color: #d1cfc9;
+    margin-left: 5px;
+}
+
+.lgbt2 {
+    font-family: "Candara", "Arial Black", serif;
+    color: #d1cfc9;
+    margin-left: 5px;
+}
+
+.lgbt3 {
+    font-family: "Candara", "Arial Black", serif;
+    color: #d1cfc9;
+    margin-left: 5px;
+    margin-bottom: 10%;
+}
+ .vlag {
+     width: 450px;
+     height: 300px;
+     position: relative;
+     margin-left: 15%;
+     border: 2px solid #d1cfc9;
+ }
+
+ .love {
+     width: 450px;
+     height: 300px;
+     margin-left: 5%;
+     border: 2px solid #d1cfc9;
+ }
+
+.lgbtweb {
+    color: #d1cfc9;
+}
+
+ .creditslil {
+     font-family: "Candara", "Arial Black", serif;
+     color: #d1cfc9;
+     margin-left: 51%;
+     font-size: 0.5vw;
+ }
+
+ /* Styling for Inspiratie page */
+ .insp1 {
+     font-family: "Candara", "Arial Black", serif;
+     color: #d1cfc9;
+     margin-left: 5px;
+ }
+
+ .insp2 {
+     font-family: "Candara", "Arial Black", serif;
+     color: #d1cfc9;
+     margin-left: 5px;
+     margin-right: 35%;
+ }
+
+ .insp3 {
+     font-family: "Candara", "Arial Black", serif;
+     color: #d1cfc9;
+     margin-left: 5px;
+     margin-right: 35%;
+ }
+
+ .insp4 {
+     font-family: "Candara", "Arial Black", serif;
+     color: #d1cfc9;
+     margin-left: 5px;
+     margin-right: 35%;
+ }
+
+ .insplist {
+     font-family: "Candara", "Arial Black", serif;
+     color: #d1cfc9;
+
+ }
+
+ .dreambig {
+     width: 450px;
+     height: 300px;
+     position: absolute;
+     margin-left: 67%;
+
+ }
+
+ .creditsdream  {
+     font-family: "Candara", "Arial Black", serif;
+     color: #d1cfc9;
+     font-size: 0.6vw;
+     margin-top: 4%;
+     margin-left: 74%;
+
+ }
+
+ .apple {
+     color: #d1cfc9;
+ }
+
+
+/* Styling for Op de groei page */
+ .opdg1 {
+     font-family: "Candara", "Arial Black", serif;
+     color: #d1cfc9;
+     margin-left: 5px;
+ }
+
+ .opdg2  {
+     font-family: "Candara", "Arial Black", serif;
+     color: #d1cfc9;
+     margin-left: 5px;
+ }
+
+ .laptop  {
+     position: absolute;
+     width: 30%;
+     height: auto;
+     margin-left: 35%;;
+     padding-bottom: 15%;
+
+ }
+
+ .creditslaptop  {
+     font-family: "Candara", "Arial Black", serif;
+     color: #d1cfc9;
+     font-size: 0.6vw;
+     margin-top: 20%;
+     margin-left: 45%;
+     }
+
+ /* Styling for Skills page */
+ .skills1 {
+     font-family: "Candara", "Arial Black", serif;
+     color: #d1cfc9;
+     margin-left: 5px;
+ }
+
+ .skills2 {
+     font-family: "Candara", "Arial Black", serif;
+     color: #d1cfc9;
+     margin-left: 5px;
+ }
+
+ .skills3 {
+     font-family: "Candara", "Arial Black", serif;
+     color: #d1cfc9;
+     margin-left: 5px;
+     margin-right: 30%;
+ }
+
+ table, th, td  {
+     border: 2px solid black;
+     color: #d1cfc9;
+     margin-left: 2%;
+     margin-top: 3%;
+ }
+
+ .progress  {
+     position: absolute;
+     width: 20%;
+     height: auto;
+     margin-top: 2%;
+     margin-left: 75%;
+     margin-bottom: 10%
+
+ }
+
+ .creditscomputer {
+     font-family: "Candara", "Arial Black", serif;
+     color: #d1cfc9;
+     font-size: 0.6vw;
+     margin-top: 22.5%;
+     margin-left: 80%;
+     margin-bottom: 5%;
+ }
+
+ /* Styling for Over mij page */
+ .overmij1 {
+     font-family: "Candara", "Arial Black", serif;
+     color: #d1cfc9;
+     margin-left: 5px;
+ }
+
+ .overmij2 {
+     font-family: "Candara", "Arial Black", serif;
+     color: #d1cfc9;
+     margin-left: 5px;
+ }
+
+ .overmij3 {
+     font-family: "Candara", "Arial Black", serif;
+     color: #d1cfc9;
+     margin-left: 5px;
+ }
+
+ .overmij4 {
+     font-family: "Candara", "Arial Black", serif;
+     color: #d1cfc9;
+     margin-left: 5px;
+ }
+
+ .overmij5 {
+     font-family: "Candara", "Arial Black", serif;
+     color: #d1cfc9;
+     margin-left: 5px;
+ }
+
+
+ h3 {
+     font-family: "Candara", "Arial Black", serif;
+     color: #d1cfc9;
+     margin-left: 5px;
+ }
+
+ .ik2  {
+     width: 18%;
+     height: auto;
+     margin-top: 5%;
+     margin-left: 10%;
+     margin-bottom: 10%;
+     border: 2px solid #d1cfc9;
+ }
+
+ .playback {
+     width: 40%;
+     height: auto;
+     margin-left: 15%;
+     margin-bottom: 10%;
+     border: 2px solid #d1cfc9;
+
+ }
+
+ /* Styling for Werk page */
+ .werk1{
+     font-family: "Candara", "Arial Black", serif;
+     color: #d1cfc9;
+     margin-left: 5px;
+ }
+
+ .work {
+     position: absolute;
+     width: 35%;
+     height: auto;
+     margin-left: 60%;
+ }
+
+
+
+ .bakker {
+     font-family: "Candara", "Arial Black", serif;
+     float: left;
+     color: #d1cfc9;
+     margin-left: 5px;
+ }
+
+ .Kassamw{
+     font-family: "Candara", "Arial Black", serif;
+     float: left;
+     color: #d1cfc9;
+     margin-left: 5%;
+ }
+
+ .Klantenservice{
+     font-family: "Candara", "Arial Black", serif;
+     float: left;
+     color: #d1cfc9;
+     margin-left: 5%;
+ }
+
+ .sales{
+     font-family: "Candara", "Arial Black", serif;
+     float: left;
+     color: #d1cfc9;
+     margin-left: 5%;
+ }
+
+ .verkoop{
+     position: absolute;
+     font-family: "Candara", "Arial Black", serif;
+     color: #d1cfc9;
+     margin-left: 5px;
+     margin-top: 2.3%;
+
+ }
+
+ .kassamw2{
+     position: relative;
+     font-family: "Candara", "Arial Black", serif;
+     color: #d1cfc9;
+     margin-left: 20.5%;
+
+
+
+ }
+
+ /* Styling for School&Stage page */
+ .schoolstage{
+     font-family: "Candara", "Arial Black", serif;
+     color: #d1cfc9;
+     margin-left: 5px;
+ }
+
+ .school{
+     box-sizing: content-box;
+     height: 20%;
+     width: 50%;
+     border: 2px solid  #d1cfc9;
+ }
+
+ .school1 {
+     box-sizing: content-box;
+     width: 100%;
+
+ }
+
+ .schoolstage{
+     font-family: "Candara", "Arial Black", serif;
+     color: #d1cfc9;
+     margin-left: 5px;
+ }
+
+ .software{
+     font-family: "Candara", "Arial Black", serif;
+     float: left;
+     color: #d1cfc9;
+     margin-left: 5px;
+ }
+
+ .Artiest{
+     font-family: "Candara", "Arial Black", serif;
+     float: left;
+     color: #d1cfc9;
+     margin-left: 5%;
+ }
+
+ .VMBO{
+     font-family: "Candara", "Arial Black", serif;
+     float: left;
+     color: #d1cfc9;
+     margin-left: 5%;
+ }
+
+.school2{
+    font-family: "Candara", "Arial Black", serif;
+    color: #d1cfc9;
+    margin-left: 5px;
+}
+
+.creditsschool{
+    font-family: "Candara", "Arial Black", serif;
+    color: #d1cfc9;
+    font-size: 0.8vw;
+    margin-top: 12%;
+    margin-left: 70%;
+    margin-bottom: 5%;
+}
+
+.creditswork{
+    font-family: "Candara", "Arial Black", serif;
+    color: #d1cfc9;
+    font-size: 0.8vw;
+    margin-top: 10.5%;
+    margin-left: 70%;
+    margin-bottom: 5%;
+}
+.schoolpic{
+    position: absolute;
+    width: 35%;
+    height: auto;
+    margin-left: 62%;
+}
+
